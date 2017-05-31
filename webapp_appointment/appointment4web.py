@@ -38,7 +38,7 @@ def do_appointment() -> 'html':
 def entry_page() -> 'html':
     """Display this webapp's HTML form."""
     return render_template('entry.html',
-                           the_title='欢迎来到网上預约！')
+                           the_title='欢迎来到网上找首都！')
 
 
 @app.route('/viewlog')
